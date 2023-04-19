@@ -1,0 +1,146 @@
+header {
+    background-color: #ccddeb;
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    align-items: center;
+    padding: 20px;
+}
+  
+header img {
+    display:flex;
+    height: 80px;
+    align-items: center;
+    padding: 9px;
+    display: none;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Futura', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: 'Futura', sans-serif;
+    font-style: italic;
+    padding: 10px;
+}
+
+nav {
+    height: 60px;
+    background-color: #ccddeb;
+    vertical-align: center;
+}
+  
+.nav_links{
+    height: 60px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    background-color: #ccddeb;
+    align-items: center; /* add align-items property */
+    padding: 15px;
+}
+  
+nav li {
+    background-color: #ccddeb;
+    margin: 0 10px;
+    align-items: center;
+}
+  
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ccddeb;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+  
+nav a:hover {
+    color: #0077B5;
+    font-weight: bold;
+}
+  
+nav .active {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Futura', sans-serif;
+}
+
+footer p {
+    padding:10px;
+}
+  
+.social-links a {
+    color: #0077B5;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+  
+.social-links a:hover {
+    transform: translateY(-3px);
+}
+  
+.fab {
+    display: inline-block;
+}
+  
+.fab.fa-linkedin:hover {
+    color: #0077B5;
+}
+  
+.fab.fa-github:hover {
+    color: #24292E;
+}
+
+.jump-link{
+    background: #1c2756;
+    color: white;
+    left: 0;
+    position: absolute;
+    top: -80px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    margin: 0;
+    width: 12%;
+    font-size: 20px;
+    padding:10px;
+    align-items: center;
+    font-family: 'Futura', sans-serif;
+}
+  
+.jump-link:focus{
+    top:20px;
+    left:20px;
+    color: white;
+    align-items: center;
+}
+ 
+@media only screen and (min-width: 760px) {
+    header img {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    header img {
+        display: block;
+    }
+    header {
+        justify-content: space-between;
+    }
+}
