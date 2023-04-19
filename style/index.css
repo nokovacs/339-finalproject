@@ -52,6 +52,7 @@
     margin-bottom: 2rem;
     font-family: 'Futura', sans-serif;
     animation: fadein 5s;
+    background-color: none;
   }
 
   
@@ -69,8 +70,9 @@
   .text-box p {
     font-size: 20px;
     line-height: 2.5rem;
-    font-weight: lighter;
+    font-weight: bold;
     font-family: 'Futura', sans-serif;
+    background: #1c2756;
   }
   
   
